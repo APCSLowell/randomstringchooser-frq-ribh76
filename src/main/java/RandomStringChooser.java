@@ -3,7 +3,7 @@ public class RandomStringChooser
 {
   /* to be implemented in part (a) */
   private ArrayList <String> valuesRemaining; 
-  public randomStringChooser(String[] values){
+  public RandomStringChooser(String[] values){
     valuesRemaining = new ArrayList<String> ();
     for (String Value : values){
       valuesRemaining.add(value); 
