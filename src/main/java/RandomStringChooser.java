@@ -5,7 +5,7 @@ public class RandomStringChooser
   private ArrayList <String> valuesRemaining; 
   public RandomStringChooser(String[] values){
     valuesRemaining = new ArrayList<String> ();
-    for (String Value : values){
+    for (String value : values){
       valuesRemaining.add(value); 
     } 
   }
